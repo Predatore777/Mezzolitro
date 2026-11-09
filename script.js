@@ -167,7 +167,6 @@
         if (k) { e.preventDefault(); var n = (cur + k + D.menu.length) % D.menu.length; renderMenu(n, true); $$('button', menuTabs)[n].focus(); }
       });
       menuTabs.appendChild(b);
-      var im = new Image(); im.src = 'img/' + c.img + '.webp';
     });
     renderMenu(0, false);
   }
