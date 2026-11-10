@@ -716,3 +716,8 @@ svg.deco{overflow:visible}
   .ghost{top:auto;bottom:-22px}
   .qual .badge{display:none}
 }
+
+/* logo WhatsApp */
+.wa{width:22px;height:22px;flex:none}
+.btn .wa{filter:brightness(0);transition:filter .5s}
+.btn:hover .wa{filter:none}
