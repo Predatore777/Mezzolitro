@@ -26,6 +26,7 @@
 </head>
 <body>
 
+<div class="curtain" id="curtain" aria-hidden="true"><img src="img/logo.webp" alt="" width="900" height="476"><span class="curtain__bar"></span></div>
 <div class="prog" id="prog" aria-hidden="true"></div>
 
 <!-- NAVIGAZIONE -->
@@ -64,14 +65,15 @@
 
 <!-- HERO -->
 <section class="sec hero" aria-label="Mezzolitro vini e cucina">
+  <svg class="deco deco--ring fx" data-rot="0.025" viewBox="0 0 400 400" style="--mx:6%;--my:150px;--ms:88vw;--dx:170;--dy:100;--ds:380" aria-hidden="true" focusable="false"><circle cx="200" cy="200" r="198" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="200" cy="200" r="166" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 9"/><circle cx="200" cy="200" r="130" fill="none" stroke="currentColor" stroke-width="1" opacity=".55"/><circle cx="200" cy="2" r="4.5" fill="currentColor"/><circle cx="34" cy="200" r="3" fill="currentColor" opacity=".7"/></svg>
   <h1 class="mega" id="mega" data-split data-fit aria-label="Mezzolitro">Mezzolitro</h1>
 
   <div class="hero__main par" data-speed="-0.05">
-    <figure class="ph" data-reveal><img decoding="async" src="img/hero.webp" alt="La sala di Mezzolitro con le luci calde e i tavoli apparecchiati" width="1000" height="1500" fetchpriority="high"></figure>
+    <figure class="ph ph--arch" data-reveal><img decoding="async" src="img/hero.webp" alt="La sala di Mezzolitro con le luci calde e i tavoli apparecchiati" width="1000" height="1500" fetchpriority="high"></figure>
   </div>
 
   <div class="hero__award">
-    <figure class="ph ph--cream hero__plate" data-reveal><img decoding="async" src="img/hero-l.webp" alt="Un tavolo apparecchiato con la lampada accesa" width="600" height="800"></figure>
+    <figure class="ph ph--arch hero__plate" data-reveal><img decoding="async" src="img/hero-l.webp" alt="Un tavolo apparecchiato con la lampada accesa" width="600" height="800"></figure>
     <div class="hero__awardtxt" data-up>
       <a class="hero__mich" href="https://guide.michelin.com/en/lombardia/rho/restaurant/mezzolitro-vini-e-cucina" target="_blank" rel="noopener" aria-label="Mezzolitro nella Guida Michelin 2025, Bib Gourmand"><img decoding="async" src="img/michelin.webp" alt="Guida Michelin 2025, Bib Gourmand" width="700" height="488"></a>
       <p class="tiny">Bib Gourmand<br>Guida Michelin 2025</p>
@@ -82,12 +84,15 @@
   <div class="hero__txt">
     <p class="kick" data-up>Cucina tipica abruzzese</p>
     <p class="tiny r" data-up>Un pezzo della nostra terra lo abbiamo voluto trasportare qui, alle porte di Milano, in uno dei centri storici più belli, nel cuore della città di Rho.</p>
-    <figure class="ph hero__staff" data-reveal><img decoding="async" src="img/hero-r.webp" alt="Calici e lampada sul tavolo, sullo sfondo la nicchia della sala" width="780" height="503"></figure>
+    <figure class="ph ph--pill hero__staff" data-reveal><img decoding="async" src="img/hero-r.webp" alt="Calici e lampada sul tavolo, sullo sfondo la nicchia della sala" width="780" height="503"></figure>
   </div>
+  <a class="hero__scroll" href="#storia" aria-label="Scorri verso la storia"><span>Scorri</span><i></i></a>
 </section>
 
 <!-- LA NOSTRA STORIA -->
 <section class="sec storia" id="storia">
+  <p class="ghost fx" data-gx="-0.16" aria-hidden="true">Abruzzo</p>
+  <i class="deco dot dot--o fx" data-dp="0.08" style="--mx:88%;--my:4%;--ms:46px;--dx:610;--dy:60;--ds:46" aria-hidden="true"></i>
   <p class="ttl ttl--s" data-split>La nostra</p>
   <h2 class="ttl ttl--xl" data-split>Storia</h2>
   <div class="storia__txt" data-up>
@@ -102,29 +107,36 @@
   </div>
 </section>
 
+<div class="band" aria-hidden="true"><div class="band__t"><span>Cucina tipica abruzzese</span><i></i><span>Bib Gourmand 2025</span><i></i><span>Via Pomè 10, Rho</span><i></i><span>Vini e cucina</span><i></i></div></div>
+
 <!-- ATMOSFERA -->
 <section class="sec atm" id="atmosfera">
-  <p class="ttl ttl--s" data-split>L’</p>
+  <svg class="deco deco--lamp"  viewBox="0 0 60 210" style="--mx:80%;--my:0;--ms:46px;--dx:640;--dy:0;--ds:44" aria-hidden="true" focusable="false"><g class="sway"><line x1="30" y1="0" x2="30" y2="118" fill="none" stroke="currentColor" stroke-width="1"/><path d="M9 166L19 118H41L51 166Z" fill="none" stroke="currentColor" stroke-width="1"/><line x1="13" y1="166" x2="47" y2="166" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="30" cy="180" r="15" fill="currentColor" opacity=".12"/><circle cx="30" cy="176" r="3" fill="currentColor"/></g></svg>
+  <div class="glow" style="--mx:-10%;--my:30%;--ms:70vw;--dx:20;--dy:200;--ds:300" aria-hidden="true"></div>
+  <div class="glow glow--b" style="--mx:40%;--my:60%;--ms:60vw;--dx:300;--dy:240;--ds:260" aria-hidden="true"></div>
+    <p class="ttl ttl--s" data-split>L’</p>
   <h2 class="ttl ttl--xl" data-split>Atmosfera</h2>
   <div class="atm__txt" data-up>
     <p>Vi aspettiamo, da noi sarà come sentirsi a casa, in una calda ed accogliente casa in Abruzzo.</p>
   </div>
   <div class="atm__coll">
-    <div class="par a1" data-speed="0.05"><figure class="ph" data-reveal><img decoding="async" src="img/atmosfera-1.webp" alt="Un angolo della sala con le luci calde" width="1100" height="1100"></figure></div>
-    <div class="par a2" data-speed="-0.04"><figure class="ph" data-reveal><img decoding="async" src="img/atmosfera-2.webp" alt="Un tavolo apparecchiato per due nella sala" width="1400" height="933"></figure></div>
-    <div class="par a3" data-speed="0.03"><figure class="ph" data-reveal><img decoding="async" src="img/hero.webp" alt="La sala con i tavoli apparecchiati" width="1000" height="1500"></figure></div>
+    <div class="par a1" data-speed="0.05"><figure class="ph ph--arch" data-reveal><img decoding="async" src="img/atmosfera-1.webp" alt="Un angolo della sala con le luci calde" width="1100" height="1100"></figure></div>
+    <div class="par a2" data-speed="-0.04"><figure class="ph ph--pill" data-reveal><img decoding="async" src="img/atmosfera-2.webp" alt="Un tavolo apparecchiato per due nella sala" width="1400" height="933"></figure></div>
+    <div class="par a3" data-speed="0.03"><figure class="ph ph--tab" data-reveal><img decoding="async" src="img/hero.webp" alt="La sala con i tavoli apparecchiati" width="1000" height="1500"></figure></div>
   </div>
 </section>
 
 <!-- LE SPECIALITÀ -->
 <section class="sec spec" id="specialita">
+  <svg class="deco deco--curve" data-draw viewBox="0 0 720 260" style="--mx:-6%;--my:34%;--ms:112vw;--dx:0;--dy:110;--ds:720" aria-hidden="true" focusable="false"><path pathLength="1" d="M-10 190C90 40 190 270 300 140S520 10 730 150" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+  <i class="deco dot dot--f fx" data-dp="-0.1" style="--mx:84%;--my:10%;--ms:18px;--dx:620;--dy:70;--ds:16" aria-hidden="true"></i>
   <p class="ttl ttl--m ttl--a" data-split>Le nostre</p>
   <h2 class="ttl ttl--m ttl--b" data-split>Specialità</h2>
   <p class="tiny spec__side" data-up>Il gusto e la tradizione della vera cucina tipica abruzzese.</p>
   <div class="row" id="specRow">
-    <div class="par" data-speed="0.04"><figure class="ph" data-reveal><img decoding="async" src="img/spec-ragu.webp" alt="Spaghetti al ragù con scaglie di formaggio" width="1100" height="733"></figure><p class="tiny cap">La chitarra alla teramana</p></div>
-    <div class="par" data-speed="-0.03"><figure class="ph" data-reveal><img decoding="async" src="img/spec-cannolo.webp" alt="Il cannolo del Castello con zucchero a velo e cacao" width="1100" height="733"></figure><p class="tiny cap">Il cannolo del Castello</p></div>
-    <div class="par" data-speed="0.05"><figure class="ph" data-reveal><img decoding="async" src="img/spec-arrosticini.webp" alt="Arrosticini di pecora con pane" width="1100" height="733"></figure><p class="tiny cap">Le rustelle di pecora</p></div>
+    <div class="par" data-speed="0.04"><figure class="ph ph--arch" data-reveal><img decoding="async" src="img/spec-ragu.webp" alt="Spaghetti al ragù con scaglie di formaggio" width="1100" height="733"></figure><p class="tiny cap">La chitarra alla teramana</p></div>
+    <div class="par" data-speed="-0.03"><figure class="ph ph--oval" data-reveal><img decoding="async" src="img/spec-cannolo.webp" alt="Il cannolo del Castello con zucchero a velo e cacao" width="1100" height="733"></figure><p class="tiny cap">Il cannolo del Castello</p></div>
+    <div class="par" data-speed="0.05"><figure class="ph ph--leaf" data-reveal><img decoding="async" src="img/spec-arrosticini.webp" alt="Arrosticini di pecora con pane" width="1100" height="733"></figure><p class="tiny cap">Le rustelle di pecora</p></div>
   </div>
   <div class="spec__cap" data-up>
     <p class="tiny c">La chitarra alla teramana con le polpettine fatte a mano, le rustelle di pecora, il cannolo del Castello.</p>
@@ -134,13 +146,15 @@
 
 <!-- DETTAGLI -->
 <section class="sec det" id="dettagli">
+  <svg class="deco badge fx" data-rot="0.16" viewBox="0 0 120 120" style="--mx:6%;--my:57%;--ms:84px;--dx:330;--dy:72;--ds:104" aria-hidden="true" focusable="false"><defs><path id="bp1" d="M60 60m-47 0a47 47 0 1 1 94 0a47 47 0 1 1-94 0"/></defs><text><textPath href="#bp1" textLength="292" lengthAdjust="spacing">Rispetto · Tradizione · Cura · Cucina · Rispetto · Tradizione ·</textPath></text><circle cx="60" cy="60" r="27" fill="none" stroke="currentColor" stroke-width="1" opacity=".6"/><path d="M50 60h20M63 53l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+  <i class="deco dot dot--f fx" data-dp="0.1" style="--mx:10%;--my:8%;--ms:16px;--dx:300;--dy:30;--ds:14" aria-hidden="true"></i>
   <p class="ttl ttl--s" data-split>Nei</p>
   <h2 class="ttl ttl--xl" data-split>Dettagli</h2>
   <div class="det__txt" data-up>
     <p>Piatti preparati con rispetto e tradizione, con la cura di chi cucina come in una casa d’Abruzzo.</p>
     <a class="lnk" href="#menu"><span>Scopri il menu</span><i></i></a>
   </div>
-  <div class="det__ph par" data-speed="-0.05"><figure class="ph" data-reveal><img decoding="async" src="img/dettagli.webp" alt="Il cuoco impiatta la pasta con la pinza" width="900" height="1200"></figure></div>
+  <div class="det__ph par" data-speed="-0.05"><figure class="ph ph--arch" data-reveal><img decoding="async" src="img/dettagli.webp" alt="Il cuoco impiatta la pasta con la pinza" width="900" height="1200"></figure></div>
 </section>
 
 <!-- LA TAVOLA CHE GIRA -->
@@ -168,7 +182,8 @@
 
 <!-- MENU -->
 <section class="sec menu" id="menu">
-  <p class="ttl ttl--s" data-split>La carta</p>
+  <svg class="deco deco--orn fx" data-rot="-0.03" viewBox="0 0 400 400" style="--mx:62%;--my:-60px;--ms:70vw;--dx:470;--dy:-40;--ds:300" aria-hidden="true" focusable="false"><circle cx="200" cy="200" r="198" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="200" cy="200" r="150" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="1 7"/><circle cx="200" cy="200" r="96" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/></svg>
+    <p class="ttl ttl--s" data-split>La carta</p>
   <h2 class="ttl ttl--xl" data-split>Menu</h2>
   <div class="menu__grid">
     <div class="menu__tabs" id="menuTabs" role="tablist" aria-label="Categorie del menu"></div>
@@ -179,13 +194,18 @@
 
 <!-- DOLCI -->
 <section class="sec dol" id="dolci">
+  <i class="deco dot dot--o fx" data-dp="0.12" style="--mx:86%;--my:3%;--ms:56px;--dx:560;--dy:24;--ds:64" aria-hidden="true"></i>
+  <i class="deco dot dot--s fx" data-dp="-0.14" style="--mx:4%;--my:43%;--ms:14px;--dx:18;--dy:210;--ds:12" aria-hidden="true"></i>
+  <i class="deco dot dot--f fx" data-dp="0.16" style="--mx:92%;--my:55%;--ms:22px;--dx:684;--dy:260;--ds:22" aria-hidden="true"></i>
+  <i class="deco dot dot--s fx" data-dp="-0.1" style="--mx:48%;--my:70%;--ms:10px;--dx:90;--dy:425;--ds:9" aria-hidden="true"></i>
+  <svg class="deco deco--arch fx" data-dp="0.05" viewBox="0 0 100 140" style="--mx:3%;--my:4%;--ms:62px;--dx:600;--dy:190;--ds:70" aria-hidden="true" focusable="false"><path d="M4 138V50a46 46 0 0 1 92 0v88" fill="none" stroke="currentColor" stroke-width="1"/><path d="M18 138V52a32 32 0 0 1 64 0v86" fill="none" stroke="currentColor" stroke-width="1" opacity=".55"/></svg>
   <p class="ttl ttl--s" data-split>I nostri</p>
   <h2 class="ttl ttl--xl" data-split>Dolci</h2>
   <div class="drow">
-    <div class="par" data-speed="0.04"><figure class="ph" data-reveal><img decoding="async" src="img/dolci-1.webp" alt="Dolce con salsa rossa e foglia di menta su piastrella decorata" width="900" height="985"></figure></div>
-    <div class="par" data-speed="-0.04"><figure class="ph" data-reveal><img decoding="async" src="img/dolci-2.webp" alt="Dolce bianco con zucchero a velo e granella" width="900" height="985"></figure></div>
-    <div class="par" data-speed="0.05"><figure class="ph" data-reveal><img decoding="async" src="img/dolci-3.webp" alt="Crema con cacao in una coppa di vetro" width="900" height="900"></figure></div>
-    <div class="par" data-speed="-0.03"><figure class="ph" data-reveal><img decoding="async" src="img/dolci-4.webp" alt="Dolce fritto con zucchero a velo" width="1100" height="733"></figure></div>
+    <div class="par" data-speed="0.04"><figure class="ph ph--oval" data-reveal><img decoding="async" src="img/dolci-1.webp" alt="Dolce con salsa rossa e foglia di menta su piastrella decorata" width="900" height="985"></figure></div>
+    <div class="par" data-speed="-0.04"><figure class="ph ph--arch" data-reveal><img decoding="async" src="img/dolci-2.webp" alt="Dolce bianco con zucchero a velo e granella" width="900" height="985"></figure></div>
+    <div class="par" data-speed="0.05"><figure class="ph ph--rr" data-reveal><img decoding="async" src="img/dolci-3.webp" alt="Crema con cacao in una coppa di vetro" width="900" height="900"></figure></div>
+    <div class="par" data-speed="-0.03"><figure class="ph ph--leaf" data-reveal><img decoding="async" src="img/dolci-4.webp" alt="Dolce fritto con zucchero a velo" width="1100" height="733"></figure></div>
   </div>
   <div class="dol__cap" data-up>
     <p class="tiny c">Il pecoramisù, il fiadone di Nonna Maria, il cannolo del Castello, la torta cioccolato e mandorle.</p>
@@ -193,20 +213,24 @@
   </div>
 </section>
 
+<div class="band band--r" aria-hidden="true"><div class="band__t"><span>Pecorino di Farindola</span><i></i><span>Canestrato di Castel Del Monte</span><i></i><span>Arrosticini solo di pecora</span><i></i><span>Agnello marsicano</span><i></i></div></div>
+
 <!-- CANTINA -->
 <section class="sec cantina" id="cantina">
+  <svg class="deco deco--glass fx" data-rot="0.02" viewBox="0 0 80 170" style="--mx:78%;--my:8px;--ms:52px;--dx:618;--dy:8;--ds:44" aria-hidden="true" focusable="false"><path d="M14 6h52c0 42-9 66-26 68C23 72 14 48 14 6Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M17 30c8 6 16-2 23 0s15 6 23 0" fill="none" stroke="currentColor" stroke-width="1" opacity=".7"/><path d="M40 74v72" fill="none" stroke="currentColor" stroke-width="1"/><path d="M22 156c6-6 30-6 36 0" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+  <i class="deco dot dot--f fx" data-dp="0.1" style="--mx:6%;--my:60%;--ms:16px;--dx:20;--dy:450;--ds:14" aria-hidden="true"></i>
   <p class="ttl ttl--s" data-split>La</p>
   <h2 class="ttl ttl--xl" data-split>Cantina</h2>
   <div class="cant__coll">
-    <div class="par v1" data-speed="0.05"><figure class="ph" data-reveal><img decoding="async" src="img/vini-1.webp" alt="La cantina con le bottiglie nelle vetrine di legno" width="1300" height="867"></figure></div>
-    <div class="par v2" data-speed="-0.05"><figure class="ph" data-reveal><img decoding="async" src="img/vini-2.webp" alt="Le bottiglie sul bancone della cantina" width="1300" height="867"></figure></div>
+    <div class="par v1" data-speed="0.05"><figure class="ph ph--tab" data-reveal><img decoding="async" src="img/vini-1.webp" alt="La cantina con le bottiglie nelle vetrine di legno" width="1300" height="867"></figure></div>
+    <div class="par v2" data-speed="-0.05"><figure class="ph ph--arch" data-reveal><img decoding="async" src="img/vini-2.webp" alt="Le bottiglie sul bancone della cantina" width="1300" height="867"></figure></div>
   </div>
   <div class="cant__price" data-up>
     <p class="cant__h">I vini al calice e in caraffa</p>
-    <div class="cant__nums">
-      <div><b>5</b><span>Calice</span></div>
-      <div><b>9</b><span>Mezzo litro</span></div>
-      <div><b>16</b><span>Litro</span></div>
+    <div class="cant__rows">
+      <div class="wrow"><strong>Calice</strong><b>5</b></div>
+      <div class="wrow"><strong>Mezzo litro</strong><b>9</b></div>
+      <div class="wrow"><strong>Litro</strong><b>16</b></div>
     </div>
     <p class="tiny">Montepulciano d’Abruzzo, Pecorino e Cerasuolo d’Abruzzo, Cantina San Giacomo.</p>
   </div>
@@ -215,6 +239,8 @@
 
 <!-- QUALITÀ -->
 <section class="sec qual" id="qualita">
+  <svg class="deco deco--wheat fx" data-rot="0.015" viewBox="0 0 60 170" style="--mx:80%;--my:10px;--ms:48px;--dx:596;--dy:6;--ds:52" aria-hidden="true" focusable="false"><path d="M30 168C30 110 30 60 30 6" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 110c-11-3-16-11-15-21 11 2 16 9 15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 110c11-3 16-11 15-21-11 2-16 9-15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 88c-11-3-16-11-15-21 11 2 16 9 15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 88c11-3 16-11 15-21-11 2-16 9-15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 66c-11-3-16-11-15-21 11 2 16 9 15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 66c11-3 16-11 15-21-11 2-16 9-15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 44c-11-3-16-11-15-21 11 2 16 9 15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 44c11-3 16-11 15-21-11 2-16 9-15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 22c-11-3-16-11-15-21 11 2 16 9 15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 22c11-3 16-11 15-21-11 2-16 9-15 21Z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M30 6c-5-3-5-3 0-5 5 2 5 2 0 5Z" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+  <svg class="deco badge fx" data-rot="-0.14" viewBox="0 0 120 120" style="--mx:52%;--my:72%;--ms:88px;--dx:346;--dy:500;--ds:92" aria-hidden="true" focusable="false"><defs><path id="bp2" d="M60 60m-47 0a47 47 0 1 1 94 0a47 47 0 1 1-94 0"/></defs><text><textPath href="#bp2" textLength="292" lengthAdjust="spacing">Pecorino · Agnello · Arrosticini · Elice · Pecorino · Agnello ·</textPath></text><circle cx="60" cy="60" r="27" fill="none" stroke="currentColor" stroke-width="1" opacity=".6"/><path d="M50 60h20M63 53l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1"/></svg>
   <p class="ttl ttl--s" data-split>La nostra</p>
   <h2 class="ttl ttl--xl" data-split>Qualità</h2>
   <div class="qual__txt" data-up>
@@ -229,43 +255,59 @@
     <li>Arrosticini solo di pecora</li>
   </ul>
   <div class="qual__coll">
-    <div class="par q1" data-speed="-0.05"><figure class="ph" data-reveal><img decoding="async" src="img/qualita.webp" alt="Tartare su ardesia con salse" width="1300" height="867"></figure></div>
-    <div class="par q2" data-speed="0.05"><figure class="ph" data-reveal><img decoding="async" src="img/qualita-2.webp" alt="Spaghetti al sugo con calici di vino e lampada" width="900" height="1200"></figure></div>
+    <div class="par q1" data-speed="-0.05"><figure class="ph ph--leaf" data-reveal><img decoding="async" src="img/qualita.webp" alt="Tartare su ardesia con salse" width="1300" height="867"></figure></div>
+    <div class="par q2" data-speed="0.05"><figure class="ph ph--oval" data-reveal><img decoding="async" src="img/qualita-2.webp" alt="Spaghetti al sugo con calici di vino e lampada" width="900" height="1200"></figure></div>
   </div>
 </section>
 
 <!-- RECENSIONI E RICONOSCIMENTI -->
 <section class="sec rev" id="recensioni">
+  <i class="deco dot dot--o fx" data-dp="0.1" style="--mx:88%;--my:2%;--ms:40px;--dx:640;--dy:18;--ds:40" aria-hidden="true"></i>
   <p class="ttl ttl--m ttl--a" data-split>Dicono</p>
   <h2 class="ttl ttl--m ttl--b" data-split>Di noi</h2>
   <div class="rev__score" data-up>
+    <svg class="stars" viewBox="0 0 116 20" role="img" aria-label="Valutazione 4,5 su 5"><defs><linearGradient id="halfStar"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="transparent"/></linearGradient></defs><path class="star" style="--k:0" transform="translate(0 0)" d="M10 1.6l2.6 5.5 6 .8-4.4 4.2 1.1 6L10 15.1l-5.3 3 1.1-6L1.4 7.9l6-.8z" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/><path class="star" style="--k:1" transform="translate(24 0)" d="M10 1.6l2.6 5.5 6 .8-4.4 4.2 1.1 6L10 15.1l-5.3 3 1.1-6L1.4 7.9l6-.8z" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/><path class="star" style="--k:2" transform="translate(48 0)" d="M10 1.6l2.6 5.5 6 .8-4.4 4.2 1.1 6L10 15.1l-5.3 3 1.1-6L1.4 7.9l6-.8z" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/><path class="star" style="--k:3" transform="translate(72 0)" d="M10 1.6l2.6 5.5 6 .8-4.4 4.2 1.1 6L10 15.1l-5.3 3 1.1-6L1.4 7.9l6-.8z" fill="currentColor" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/><path class="star" style="--k:4" transform="translate(96 0)" d="M10 1.6l2.6 5.5 6 .8-4.4 4.2 1.1 6L10 15.1l-5.3 3 1.1-6L1.4 7.9l6-.8z" fill="url(#halfStar)" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/></svg>
     <div class="rev__big"><span data-count="4.5" data-dec="1">4,5</span></div>
     <p class="tiny">su Google, con oltre <b data-count="650">650</b> recensioni</p>
-    <a class="lnk" href="https://www.google.com/maps/search/?api=1&amp;query=Mezzolitro+vini+e+cucina+via+Pom%C3%A8+10+Rho" target="_blank" rel="noopener"><span>Leggi su Google</span><i></i></a>
-    <a class="lnk" href="https://www.tripadvisor.com/Restaurant_Review-g608893-d13173824-Reviews-Mezzolitro_Vini_e_Cucina-Rho_Province_of_Milan_Lombardy.html" target="_blank" rel="noopener"><span>Leggi su TripAdvisor</span><i></i></a>
+    <div class="rev__links">
+      <a class="lnk" href="https://www.google.com/maps/search/?api=1&amp;query=Mezzolitro+vini+e+cucina+via+Pom%C3%A8+10+Rho" target="_blank" rel="noopener"><span>Leggi su Google</span><i></i></a>
+      <a class="lnk" href="https://www.tripadvisor.com/Restaurant_Review-g608893-d13173824-Reviews-Mezzolitro_Vini_e_Cucina-Rho_Province_of_Milan_Lombardy.html" target="_blank" rel="noopener"><span>Leggi su TripAdvisor</span><i></i></a>
+    </div>
   </div>
   <div class="rev__awards">
-    <a class="aw aw--michelin" href="https://guide.michelin.com/en/lombardia/rho/restaurant/mezzolitro-vini-e-cucina" target="_blank" rel="noopener" aria-label="Guida Michelin 2025, Bib Gourmand"><img decoding="async" src="img/michelin.webp" alt="Guida Michelin 2025" width="700" height="488"></a>
-    <div class="rev__fine">
-      <a class="aw" href="https://www.tripadvisor.com/Restaurant_Review-g608893-d13173824-Reviews-Mezzolitro_Vini_e_Cucina-Rho_Province_of_Milan_Lombardy.html" target="_blank" rel="noopener" aria-label="TripAdvisor Travelers’ Choice Awards 2024"><img decoding="async" src="img/tripadvisor.webp" alt="TripAdvisor Travelers’ Choice Awards 2024" width="520" height="505"></a>
-      <span class="aw aw--guru"><img decoding="async" src="img/guru.webp" alt="Restaurant Guru 2023, miglior ristorante italiano a Rho" width="520" height="733"></span>
-      <a class="aw" href="https://www.celiachia.it" target="_blank" rel="noopener" aria-label="AIC, alimentazione fuori casa senza glutine 2025"><img decoding="async" src="img/glutine.webp" alt="AIC Alimentazione Fuori Casa 2025, qui alimenti senza glutine" width="600" height="424"></a>
+    <div class="medal" data-up>
+      <svg class="medal__ring fx" data-rot="0.04" viewBox="0 0 300 300" aria-hidden="true" focusable="false"><circle cx="150" cy="150" r="148" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="150" cy="150" r="128" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 8" opacity=".7"/><circle cx="150" cy="2" r="4" fill="currentColor"/></svg>
+      <a class="aw aw--michelin" href="https://guide.michelin.com/en/lombardia/rho/restaurant/mezzolitro-vini-e-cucina" target="_blank" rel="noopener" aria-label="Guida Michelin 2025, Bib Gourmand"><img decoding="async" src="img/michelin.webp" alt="Guida Michelin 2025" width="700" height="488"></a>
+    </div>
+    <p class="rev__cap" data-up>Bib Gourmand · Guida Michelin 2025</p>
+    <div class="rev__fine" data-up>
+      <a class="aw aw--c" href="https://www.tripadvisor.com/Restaurant_Review-g608893-d13173824-Reviews-Mezzolitro_Vini_e_Cucina-Rho_Province_of_Milan_Lombardy.html" target="_blank" rel="noopener" aria-label="TripAdvisor Travelers’ Choice Awards 2024"><span class="aw__box"><img decoding="async" src="img/tripadvisor.webp" alt="TripAdvisor Travelers’ Choice Awards 2024" width="520" height="505"></span><span class="aw__lbl">Travelers’ Choice 2024</span></a>
+      <span class="aw aw--c"><span class="aw__box"><img decoding="async" src="img/guru.webp" alt="Restaurant Guru 2023, miglior ristorante italiano a Rho" width="520" height="733"></span><span class="aw__lbl">Restaurant Guru 2023</span></span>
+      <a class="aw aw--c" href="https://www.celiachia.it" target="_blank" rel="noopener" aria-label="AIC, alimentazione fuori casa senza glutine 2025"><span class="aw__box"><img decoding="async" src="img/glutine.webp" alt="AIC Alimentazione Fuori Casa 2025, qui alimenti senza glutine" width="600" height="424"></span><span class="aw__lbl">Senza glutine 2025</span></a>
     </div>
   </div>
 </section>
 
 <!-- PRENOTA -->
 <section class="sec book" id="prenota">
+  <div class="glow" style="--mx:50%;--my:10%;--ms:80vw;--dx:330;--dy:60;--ds:340" aria-hidden="true"></div>
+  <i class="deco dot dot--o fx" data-dp="0.1" style="--mx:90%;--my:3%;--ms:34px;--dx:640;--dy:30;--ds:34" aria-hidden="true"></i>
+  <i class="deco dot dot--s fx" data-dp="-0.12" style="--mx:6%;--my:70%;--ms:12px;--dx:30;--dy:380;--ds:11" aria-hidden="true"></i>
   <p class="ttl ttl--s" data-split>Prenota</p>
   <h2 class="ttl ttl--l" data-split>Il tuo tavolo</h2>
   <div class="book__txt" data-up>
     <p>Vi aspettiamo, da noi sarà come sentirsi a casa.</p>
     <div class="book__links">
-      <a class="lnk lnk--big" href="tel:+390291327868" id="callMain"><span>Chiama +39 02 9132 7868</span><i></i></a>
-      <a class="lnk lnk--big" href="https://www.google.com/maps/search/?api=1&amp;query=Mezzolitro+vini+e+cucina+via+Pom%C3%A8+10+Rho" target="_blank" rel="noopener"><span>Prenota su Google</span><i></i></a>
+      <a class="btn btn--solid" href="tel:+390291327868"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5.5 3.5h3.2l1.8 4.6-2.2 1.4a11 11 0 0 0 5.2 5.2l1.4-2.2 4.6 1.8v3.2a2 2 0 0 1-2 2A15.5 15.5 0 0 1 3.5 5.5a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg><span>Chiama</span><em>+39 02 9132 7868</em></a>
+      <a class="btn" href="https://wa.me/390291327868?text=Buongiorno%2C%20vorrei%20prenotare%20un%20tavolo%20da%20Mezzolitro." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M9 8.4c.3 2.6 2.7 5 5.5 5.6l1.3-1.5-2.1-1-.9.8a5 5 0 0 1-2.3-2.3l.8-.9-1-2.1Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg><span>Scrivici su WhatsApp</span></a>
+      <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mezzolitro+vini+e+cucina+via+Pom%C3%A8+10+Rho" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 21s7-6.1 7-11.2a7 7 0 1 0-14 0C5 14.9 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span>Come arrivare</span></a>
     </div>
+    <p class="tiny book__hrs">Dal martedì al sabato a pranzo e a cena, il lunedì solo a cena. Domenica chiuso.</p>
   </div>
-  <div class="book__ph par" data-speed="-0.05"><figure class="ph" data-reveal><img decoding="async" src="img/atmosfera-2.webp" alt="Un tavolo apparecchiato per due nella sala" width="1400" height="933"></figure></div>
+  <div class="book__ph par" data-speed="-0.05">
+    <figure class="ph ph--arch" data-reveal><img decoding="async" src="img/atmosfera-2.webp" alt="Un tavolo apparecchiato per due nella sala" width="1400" height="933"></figure>
+    <a class="callbadge" href="tel:+390291327868" aria-label="Chiama il ristorante, +39 02 9132 7868"><svg class="fx" data-rot="0.2" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><defs><path id="bp3" d="M60 60m-47 0a47 47 0 1 1 94 0a47 47 0 1 1-94 0"/></defs><text><textPath href="#bp3" textLength="292" lengthAdjust="spacing">Chiama ora · +39 02 9132 7868 · Prenota · </textPath></text></svg><span class="callbadge__ic"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5.5 3.5h3.2l1.8 4.6-2.2 1.4a11 11 0 0 0 5.2 5.2l1.4-2.2 4.6 1.8v3.2a2 2 0 0 1-2 2A15.5 15.5 0 0 1 3.5 5.5a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg></span></a>
+  </div>
 </section>
 
 <!-- DOVE SIAMO -->
@@ -318,6 +360,13 @@
 </footer>
 
 </main>
+
+<nav class="dock" id="dock" aria-label="Contatti rapidi">
+  <a class="dock__b" href="tel:+390291327868" aria-label="Chiama"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5.5 3.5h3.2l1.8 4.6-2.2 1.4a11 11 0 0 0 5.2 5.2l1.4-2.2 4.6 1.8v3.2a2 2 0 0 1-2 2A15.5 15.5 0 0 1 3.5 5.5a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg><span>Chiama</span></a>
+  <a class="dock__b dock__wa" href="https://wa.me/390291327868?text=Buongiorno%2C%20vorrei%20prenotare%20un%20tavolo%20da%20Mezzolitro." target="_blank" rel="noopener" aria-label="Scrivici su WhatsApp"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M9 8.4c.3 2.6 2.7 5 5.5 5.6l1.3-1.5-2.1-1-.9.8a5 5 0 0 1-2.3-2.3l.8-.9-1-2.1Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg><span>WhatsApp</span></a>
+  <a class="dock__b" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mezzolitro+vini+e+cucina+via+Pom%C3%A8+10+Rho" target="_blank" rel="noopener" aria-label="Indicazioni su Google Maps"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M12 21s7-6.1 7-11.2a7 7 0 1 0-14 0C5 14.9 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg><span>Posizione</span></a>
+</nav>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
 
 <script src="data.js"></script>
 <script src="script.js"></script>
